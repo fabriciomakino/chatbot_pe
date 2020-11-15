@@ -1,0 +1,526 @@
+________________________________________________________
+Evaluating all possible splits for the feature " lat "
+________________________________________________________
+All the values for this feature are  [0]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " long "
+________________________________________________________
+All the values for this feature are  [1 0]
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+204         1          1            1  ...              1           1     1
+260         0          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+402         1          1            1  ...              1           1     1
+
+[1 rows x 18 columns]
+Weighted Gini for this split  1.0
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+402         1          1            1  ...              1           1     1
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+204         1          1            1  ...              1           1     1
+260         0          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+Weighted Gini for this split  1.0
+Best gini for  long  is  1.0
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_living15 "
+________________________________________________________
+All the values for this feature are  [1]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_lot15 "
+________________________________________________________
+All the values for this feature are  [1]
+Ignoring this feature as it has only a single unique value
+Best split is " bedrooms " values are  [1]  and GiniIndex is  0.0
+======================================
+Building Tree for the data
+======================================
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+204         1          1            1  ...              1           1     1
+402         1          1            1  ...              1           1     1
+
+[2 rows x 18 columns]
+GiniIndex for total data =  0.0
+The data is pure, no split is needed 
+======================================
+Building Tree for the data
+======================================
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+260         0          1            1  ...              1           1     0
+
+[1 rows x 18 columns]
+GiniIndex for total data =  0.0
+The data is pure, no split is needed 
+======================================
+Building Tree for the data
+======================================
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+53          0          1            1  ...              0           0     1
+297         1          1            1  ...              1           1     0
+
+[3 rows x 18 columns]
+GiniIndex for total data =  1.3333333333333335
+________________________________________________________
+Evaluating all possible splits for the feature " bedrooms "
+________________________________________________________
+All the values for this feature are  [1 0]
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+Weighted Gini for this split  1.0
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+Weighted Gini for this split  1.0
+Best gini for  bedrooms  is  1.0
+________________________________________________________
+Evaluating all possible splits for the feature " bathrooms "
+________________________________________________________
+All the values for this feature are  [1]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_living "
+________________________________________________________
+All the values for this feature are  [1]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_lot "
+________________________________________________________
+All the values for this feature are  [1 0]
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53          0          1            1  ...              0           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+Weighted Gini for this split  1.0
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53          0          1            1  ...              0           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+
+[1 rows x 18 columns]
+Weighted Gini for this split  1.0
+Best gini for  sqft_lot  is  1.0
+________________________________________________________
+Evaluating all possible splits for the feature " floors "
+________________________________________________________
+All the values for this feature are  [0]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " waterfront "
+________________________________________________________
+All the values for this feature are  [0]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " view "
+________________________________________________________
+All the values for this feature are  [0 1]
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+53         0          1            1  ...              0           0     1
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+297         1          1            1  ...              1           1     0
+
+[1 rows x 18 columns]
+Weighted Gini for this split  0.0
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+297         1          1            1  ...              1           1     0
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+53         0          1            1  ...              0           0     1
+
+[2 rows x 18 columns]
+Weighted Gini for this split  0.0
+Best gini for  view  is  0.0
+________________________________________________________
+Evaluating all possible splits for the feature " condition "
+________________________________________________________
+All the values for this feature are  [0]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " grade "
+________________________________________________________
+All the values for this feature are  [1 0]
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+Weighted Gini for this split  1.0
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+Weighted Gini for this split  1.0
+Best gini for  grade  is  1.0
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_above "
+________________________________________________________
+All the values for this feature are  [1 0]
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+Weighted Gini for this split  1.0
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+Weighted Gini for this split  1.0
+Best gini for  sqft_above  is  1.0
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_basement "
+________________________________________________________
+All the values for this feature are  [1]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " yr_built "
+________________________________________________________
+All the values for this feature are  [0]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " yr_renovated "
+________________________________________________________
+All the values for this feature are  [1]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " lat "
+________________________________________________________
+All the values for this feature are  [0]
+Ignoring this feature as it has only a single unique value
+________________________________________________________
+Evaluating all possible splits for the feature " long "
+________________________________________________________
+All the values for this feature are  [1 0]
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53          0          1            1  ...              0           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+Weighted Gini for this split  1.0
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53          0          1            1  ...              0           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+
+[1 rows x 18 columns]
+Weighted Gini for this split  1.0
+Best gini for  long  is  1.0
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_living15 "
+________________________________________________________
+All the values for this feature are  [1 0]
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+Weighted Gini for this split  1.0
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+53         0          1            1  ...              0           0     1
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49          1          1            1  ...              1           0     1
+297         1          1            1  ...              1           1     0
+
+[2 rows x 18 columns]
+Weighted Gini for this split  1.0
+Best gini for  sqft_living15  is  1.0
+________________________________________________________
+Evaluating all possible splits for the feature " sqft_lot15 "
+________________________________________________________
+All the values for this feature are  [0 1]
+ ******************************************
+ ***** split based on values  [0] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+53         0          1            1  ...              0           0     1
+
+[2 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+297         1          1            1  ...              1           1     0
+
+[1 rows x 18 columns]
+Weighted Gini for this split  0.0
+ ******************************************
+ ***** split based on values  [1] *****
+ ******************************************
+-----------------------
+Left dataset
+-----------------------
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+297         1          1            1  ...              1           1     0
+
+[1 rows x 18 columns]
+-----------------------
+Right dataset
+-----------------------
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+53         0          1            1  ...              0           0     1
+
+[2 rows x 18 columns]
+Weighted Gini for this split  0.0
+Best gini for  sqft_lot15  is  0.0
+Best split is " view " values are  [0]  and GiniIndex is  0.0
+======================================
+Building Tree for the data
+======================================
+    bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+49         1          1            1  ...              1           0     1
+53         0          1            1  ...              0           0     1
+
+[2 rows x 18 columns]
+GiniIndex for total data =  0.0
+The data is pure, no split is needed 
+======================================
+Building Tree for the data
+======================================
+     bedrooms  bathrooms  sqft_living  ...  sqft_living15  sqft_lot15  Caro
+297         1          1            1  ...              1           1     0
+
+[1 rows x 18 columns]
+GiniIndex for total data =  0.0
+The data is pure, no split is needed 
+{"split": "sqft_living 0", "left": 
+{"split": "bedrooms 1", "left": 
+{"split": "yr_built 2", "left": 
+{"split": "sqft_basement 3", "left": 
+{"split": "grade 4", "left": 
+{"split": "lat 5", "left": 
+{"split": "view 6", "left": 
+{"split": "sqft_lot15 7", "left": 
+{"split": "sqft_lot 8", "left": 
+{"split": "long 9", "left": 
+{"split": "condition 10", "left": 
+{"split": "floors 11", "left": 
+{"split": "bathrooms 12", "left": 
+{"split": " 13", "left": "", "right": ""}, "right": 
+{"split": " 13", "left": "", "right": ""}}, "right": 
+{"split": "bathrooms 12", "left": 
+{"split": " 13", "left": "", "right": ""}, "right": 
+{"split": " 13", "left": "", "right": ""}}}, "right": 
+{"split": "floors 11", "left": 
+{"split": " 12", "left": "", "right": ""}, "right": 
+{"split": "bathrooms 12", "left": 
+{"split": " 13", "left": "", "right": ""}, "right": 
+{"split": " 13", "left": "", "right": ""}}}}, "right": 
+{"split": " 10", "left": "", "right": ""}}, "right": 
+{"split": " 9", "left": "", "right": ""}}, "right": 
+{"split": " 8", "left": "", "right": ""}}, "right": 
+{"split": "floors 7", "left": 
+{"split": " 8", "left": "", "right": ""}, "right": 
+{"split": " 8", "left": "", "right": ""}}}, "right": {"split": "floors 6", "left": {"split": "long 7", "left": {"split": " 8", "left": "", "right": ""}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": "sqft_lot 7", "left": {"split": "yr_renovated 8", "left": {"split": " 9", "left": "", "right": ""}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}}}, "right": {"split": "floors 5", "left": {"split": "lat 6", "left": {"split": "sqft_above 7", "left": {"split": "long 8", "left": {"split": "bathrooms 9", "left": {"split": " 10", "left": "", "right": ""}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": "sqft_above 7", "left": {"split": " 8", "left": "", "right": ""}, "right": {"split": " 8", "left": "", "right": ""}}}, "right": {"split": " 6", "left": "", "right": ""}}}, "right": {"split": "sqft_lot 4", "left": {"split": "view 5", "left": {"split": "lat 6", "left": {"split": "condition 7", "left": {"split": "sqft_lot15 8", "left": {"split": "floors 9", "left": {"split": " 10", "left": "", "right": ""}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": " 7", "left": "", "right": ""}}, "right": {"split": " 6", "left": "", "right": ""}}, "right": {"split": "condition 5", "left": {"split": "sqft_lot15 6", "left": {"split": "view 7", "left": {"split": "bathrooms 8", "left": {"split": "long 9", "left": {"split": "lat 10", "left": {"split": " 11", "left": "", "right": ""}, "right": {"split": " 11", "left": "", "right": ""}}, "right": {"split": "lat 10", "left": {"split": " 11", "left": "", "right": ""}, "right": {"split": " 11", "left": "", "right": ""}}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": " 7", "left": "", "right": ""}}, "right": {"split": " 6", "left": "", "right": ""}}}}, "right": {"split": "bathrooms 3", "left": {"split": "long 4", "left": {"split": "view 5", "left": {"split": "condition 6", "left": {"split": "grade 7", "left": {"split": "sqft_lot 8", "left": {"split": "floors 9", "left": {"split": "lat 10", "left": {"split": "sqft_living15 11", "left": {"split": "sqft_above 12", "left": {"split": " 13", "left": "", "right": ""}, "right": {"split": " 13", "left": "", "right": ""}}, "right": {"split": " 12", "left": "", "right": ""}}, "right": {"split": " 11", "left": "", "right": ""}}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": "sqft_lot 8", "left": {"split": "floors 9", "left": {"split": "sqft_living15 10", "left": {"split": "sqft_basement 11", "left": {"split": " 12", "left": "", "right": ""}, "right": {"split": " 12", "left": "", "right": ""}}, "right": {"split": " 11", "left": "", "right": ""}}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}}, "right": {"split": " 7", "left": "", "right": ""}}, "right": {"split": " 6", "left": "", "right": ""}}, "right": {"split": " 5", "left": "", "right": ""}}, "right": {"split": " 4", "left": "", "right": ""}}}, "right": {"split": "grade 2", "left": {"split": "sqft_above 3", "left": {"split": "yr_built 4", "left": {"split": "sqft_living15 5", "left": {"split": " 6", "left": "", "right": ""}, "right": {"split": " 6", "left": "", "right": ""}}, "right": {"split": "floors 5", "left": {"split": " 6", "left": "", "right": ""}, "right": {"split": "bathrooms 6", "left": {"split": " 7", "left": "", "right": ""}, "right": {"split": " 7", "left": "", "right": ""}}}}, "right": {"split": "view 4", "left": {"split": "bathrooms 5", "left": {"split": "long 6", "left": {"split": "yr_built 7", "left": {"split": "floors 8", "left": {"split": "sqft_basement 9", "left": {"split": "lat 10", "left": {"split": "sqft_living15 11", "left": {"split": " 12", "left": "", "right": ""}, "right": {"split": " 12", "left": "", "right": ""}}, "right": {"split": " 11", "left": "", "right": ""}}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": "sqft_living15 8", "left": {"split": " 9", "left": "", "right": ""}, "right": {"split": " 9", "left": "", "right": ""}}}, "right": {"split": "yr_built 7", "left": {"split": " 8", "left": "", "right": ""}, "right": {"split": " 8", "left": "", "right": ""}}}, "right": {"split": "sqft_lot 6", "left": {"split": "floors 7", "left": {"split": " 8", "left": "", "right": ""}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": " 7", "left": "", "right": ""}}}, "right": {"split": " 5", "left": "", "right": ""}}}, "right": {"split": "sqft_basement 3", "left": {"split": "long 4", "left": {"split": "sqft_above 5", "left": {"split": "condition 6", "left": {"split": "sqft_lot15 7", "left": {"split": "sqft_lot 8", "left": {"split": "lat 9", "left": {"split": "bathrooms 10", "left": {"split": "yr_built 11", "left": {"split": " 12", "left": "", "right": ""}, "right": {"split": " 12", "left": "", "right": ""}}, "right": {"split": "yr_built 11", "left": {"split": " 12", "left": "", "right": ""}, "right": {"split": " 12", "left": "", "right": ""}}}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": " 7", "left": "", "right": ""}}, "right": {"split": " 6", "left": "", "right": ""}}, "right": {"split": " 5", "left": "", "right": ""}}, "right": {"split": "bathrooms 4", "left": {"split": "condition 5", "left": {"split": " 6", "left": "", "right": ""}, "right": {"split": "sqft_lot 6", "left": {"split": "yr_built 7", "left": {"split": "yr_renovated 8", "left": {"split": " 9", "left": "", "right": ""}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": " 7", "left": "", "right": ""}}}, "right": {"split": " 5", "left": "", "right": ""}}}}}, "right": {"split": "waterfront 1", "left": {"split": " 2", "left": "", "right": ""}, "right": {"split": "yr_built 2", "left": {"split": "condition 3", "left": {"split": "grade 4", "left": {"split": "sqft_lot15 5", "left": {"split": "lat 6", "left": {"split": "long 7", "left": {"split": "sqft_basement 8", "left": {"split": "view 9", "left": {"split": "sqft_living15 10", "left": {"split": " 11", "left": "", "right": ""}, "right": {"split": " 11", "left": "", "right": ""}}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": " 7", "left": "", "right": ""}}, "right": {"split": "sqft_lot 6", "left": {"split": "sqft_living15 7", "left": {"split": "bathrooms 8", "left": {"split": "floors 9", "left": {"split": "sqft_basement 10", "left": {"split": "view 11", "left": {"split": "long 12", "left": {"split": "bedrooms 13", "left": {"split": " 14", "left": "", "right": ""}, "right": {"split": "lat 14", "left": {"split": " 15", "left": "", "right": ""}, "right": {"split": " 15", "left": "", "right": ""}}}, "right": {"split": " 13", "left": "", "right": ""}}, "right": {"split": " 12", "left": "", "right": ""}}, "right": {"split": "long 11", "left": {"split": " 12", "left": "", "right": ""}, "right": {"split": " 12", "left": "", "right": ""}}}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": " 7", "left": "", "right": ""}}}, "right": {"split": " 5", "left": "", "right": ""}}, "right": {"split": " 4", "left": "", "right": ""}}, "right": {"split": "yr_renovated 3", "left": {"split": "view 4", "left": {"split": "bedrooms 5", "left": {"split": " 6", "left": "", "right": ""}, "right": {"split": "lat 6", "left": {"split": "condition 7", "left": {"split": "sqft_lot 8", "left": {"split": "floors 9", "left": {"split": " 10", "left": "", "right": ""}, "right": {"split": " 10", "left": "", "right": ""}}, "right": {"split": " 9", "left": "", "right": ""}}, "right": {"split": " 8", "left": "", "right": ""}}, "right": {"split": "sqft_lot 7", "left": {"split": " 8", "left": "", "right": ""}, "right": {"split": " 8", "left": "", "right": ""}}}}, "right": {"split": "sqft_basement 5", "left": {"split": " 6", "left": "", "right": ""}, "right": {"split": "bedrooms 6", "left": {"split": " 7", "left": "", "right": ""}, "right": {"split": " 7", "left": "", "right": ""}}}}, "right": {"split": "view 4", "left": {"split": " 5", "left": "", "right": ""}, "right": {"split": " 5", "left": "", "right": ""}}}}}}
