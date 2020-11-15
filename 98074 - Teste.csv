@@ -1,0 +1,12 @@
+bedrooms,bathrooms,sqft_living,sqft_lot,floors,waterfront,view,condition,grade,sqft_above,sqft_basement,yr_built,yr_renovated,Caro,Classificado,Acertou,,Médio?,Barato e Acerto,Caro e Acerto
+1,1,1,0,1,0,0,0,1,1,0,1,0,0,B,VERDADEIRO,,FALSO,VERDADEIRO,FALSO
+1,1,1,0,1,0,0,0,1,1,0,1,0,0,B,VERDADEIRO,,FALSO,VERDADEIRO,FALSO
+1,1,1,0,1,0,0,0,1,1,0,1,0,1,B,FALSO,,FALSO,FALSO,FALSO
+1,1,1,0,1,0,0,0,1,1,0,1,0,1,B,FALSO,,FALSO,FALSO,FALSO
+1,1,1,0,1,0,0,0,1,1,0,1,0,1,B,FALSO,,FALSO,FALSO,FALSO
+1,1,1,0,1,0,0,0,1,1,0,1,0,1,B,FALSO,,FALSO,FALSO,FALSO
+1,1,1,0,1,0,0,0,1,1,0,1,0,0,B,VERDADEIRO,,FALSO,VERDADEIRO,FALSO
+1,1,1,1,1,0,0,0,1,1,0,1,0,1,M,VERDADEIRO,,VERDADEIRO,FALSO,FALSO
+1,1,1,0,1,0,0,0,1,1,0,1,0,1,B,FALSO,,FALSO,FALSO,FALSO
+1,1,1,0,0,0,0,0,1,1,1,1,0,0,B,VERDADEIRO,,FALSO,VERDADEIRO,FALSO
+,,,,,,,,,,,,,,,5,,,,

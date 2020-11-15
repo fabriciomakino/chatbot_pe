@@ -1,0 +1,44 @@
+ID;Pergunta;A;Nó A;B;Nó B
+1;sqft_living <= 0.5 |;SIM;2;NÃO;27
+2;bedrooms <= 0.5 |;SIM;3;NÃO;16
+3;yr_built <= 0.5 |;SIM;4;NÃO;13
+4;sqft_basement <= 0.5 |;SIM;5;NÃO;10
+5;grade <= 0.5 |;SIM;6;NÃO;9
+6;sqft_lot <= 0.5 |;SIM;7;NÃO;8
+7;NÓ FOLHA;CARO
+8;NÓ FOLHA;CARO
+9;NÓ FOLHA;MÉDIO
+10;sqft_lot <= 0.5 |;SIM;11;NÃO;12
+11;NÓ FOLHA;MÉDIO
+12;NÓ FOLHA;MÉDIO
+13;grade <= 0.5 |;SIM;14;NÃO;15
+14;NÓ FOLHA;BARATO
+15;NÓ FOLHA;CARO
+16;grade <= 0.5 |;SIM;17;NÃO;24
+17;sqft_basement <= 0.5 |;SIM;18;NÃO;21
+18;yr_built <= 0.5 |;SIM;19;NÃO;20
+19;NÓ FOLHA;MÉDIO
+20;NÓ FOLHA;BARATO
+21;condition <= 0.5 |;SIM;22;NÃO;23
+22;NÓ FOLHA;BARATO
+23;NÓ FOLHA;BARATO
+24;sqft_above <= 0.5 |;SIM;25;NÃO;26
+25;NÓ FOLHA;CARO
+26;NÓ FOLHA;BARATO
+27;view <= 0.5 |;SIM;28;NÃO;41
+28;yr_built <= 0.5 |;SIM;29;NÃO;34
+29;bedrooms <= 0.5 |;SIM;30;NÃO;31
+30;NÓ FOLHA;BARATO
+31;floors <= 0.5 |;SIM;32;NÃO;33
+32;NÓ FOLHA;BARATO
+33;NÓ FOLHA;BARATO
+34;grade <= 0.5 |;SIM;35;NÃO;36
+35;NÓ FOLHA;BARATO
+36;sqft_lot <= 0.5 |;SIM;37;NÃO;40
+37;bedrooms <= 0.5 |;SIM;38;NÃO;39
+38;NÓ FOLHA;MÉDIO
+39;NÓ FOLHA;BARATO
+40;NÓ FOLHA;MÉDIO
+41;NÓ FOLHA;MÉDIO
+
+
